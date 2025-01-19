@@ -132,7 +132,7 @@ PlayGameState.prototype.Render = function()
         this.background.RenderLayerBack();
         Context.fillStyle = "#ffffff";
         Context.font = 'bold 20px Arial';
-        Context.fillText("Gunung Rinjani", 20, 50);
+        Context.fillText("Rinjani", 20, 50);
     }
     if(this.successLog >= 15 && this.successLog < 30)
     {
